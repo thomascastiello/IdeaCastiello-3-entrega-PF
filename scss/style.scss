@@ -1,0 +1,22 @@
+@import '../components/variables';
+@import '../components/logo';
+@import '../components/footer';
+@import '../components/servicios';
+@import '../components/maps';
+@import '../components/button';
+@import '../components/equipos';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bordenv{
+    border-radius: 10rem;
+    text-align: center;
+}
+
+.paddnav{
+    align-items: center;
+}

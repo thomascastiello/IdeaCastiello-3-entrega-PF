@@ -1,0 +1,47 @@
+$colornf2: #15498A;
+$colorf: #393E46;
+@mixin fontStyle($color, $fontSize, $colortwo){
+    font-size: $fontSize;
+    color:$colortwo;
+    background-color: $color;
+}
+
+.titulo{
+    h4{
+        border-radius: 7rem;
+        @include fontStyle($colornf, 25px, white);
+        padding-left: 1rem;
+    }
+}
+
+h3{
+    @extend h4;
+    background-color:$colorf ;
+    padding-right: 1rem;
+    
+}
+
+section{
+    h1{
+        text-shadow: 4px 4px $colornf;
+        font-style: italic;
+    }
+}
+
+aside{
+    h3{
+        margin-top: 0.5rem;
+    }
+}
+
+aside{
+    .b1{
+        margin-right: 1rem;
+    }
+}
+
+aside{
+    .b2{
+        margin-left: 1rem;
+    }
+}
